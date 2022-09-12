@@ -1,5 +1,6 @@
 from programming_task.programming_task.constatnts import get_speed_list
 
+
 def test_speed_list() -> bool:
     assert isinstance(get_speed_list(), list)
 
