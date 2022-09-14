@@ -15,6 +15,7 @@ import pytest
         ([[50, False], [60, False], [70, False], [70, True]], 70),
         ([[50, True], [60, False], [70, False]], 50),
         ([[50, True], [60, True], [70, True], [80, True]], 65),
+        ([[0, True], [0, True], [0, True]], 0),
     ],
 )
 def test_get_average_speed(input_var, exp_result):
